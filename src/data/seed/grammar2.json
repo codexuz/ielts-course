@@ -1,0 +1,1175 @@
+{
+  "1": [
+    {
+      "t": "correct",
+      "q": "In spite the side effects, the new medicine is very popular.",
+      "start": "",
+      "a": [
+        "In spite of the side effects, the new medicine is very popular.",
+        "Despite the side effects, the new medicine is very popular."
+      ],
+      "why": "\"In spite\" always needs \"of\"; \"despite\" never takes \"of\"."
+    },
+    {
+      "t": "correct",
+      "q": "Many people are addicted on sugary drinks.",
+      "start": "",
+      "a": [
+        "Many people are addicted to sugary drinks."
+      ],
+      "why": "\"Addicted\" goes with \"to\", not \"on\"."
+    },
+    {
+      "t": "correct",
+      "q": "If the drug would be cheaper, more people could buy it.",
+      "start": "",
+      "a": [
+        "If the drug were cheaper, more people could buy it.",
+        "If the drug was cheaper, more people could buy it."
+      ],
+      "why": "Second conditional: \"if\" + past simple (\"were/was\"), never \"if + would\"."
+    },
+    {
+      "t": "verb",
+      "q": "While the doctor ____ (explain) the results, my phone rang.",
+      "start": "",
+      "a": [
+        "was explaining"
+      ],
+      "why": "The longer action in progress uses the past continuous; the short action that interrupts it uses the past simple."
+    },
+    {
+      "t": "combine",
+      "q": "I visited a nutritionist. Her advice changed my diet.",
+      "start": "I visited a nutritionist",
+      "a": [
+        "I visited a nutritionist whose advice changed my diet.",
+        "I visited a nutritionist, whose advice changed my diet."
+      ],
+      "why": "\"Whose\" replaces a possessive (her, his, their) in a relative clause."
+    }
+  ],
+  "2": [
+    {
+      "t": "correct",
+      "q": "Poor countries should to get help to protect their forests.",
+      "start": "",
+      "a": [
+        "Poor countries should get help to protect their forests."
+      ],
+      "why": "Modal verbs (must, should, can) are followed by the base verb without \"to\"."
+    },
+    {
+      "t": "correct",
+      "q": "There is less trees in the city centre than in the suburbs.",
+      "start": "",
+      "a": [
+        "There are fewer trees in the city centre than in the suburbs."
+      ],
+      "why": "Use \"fewer\" with plural countable nouns (trees) and \"less\" with uncountable ones (water, money)."
+    },
+    {
+      "t": "correct",
+      "q": "The government has signed the agreement last year.",
+      "start": "",
+      "a": [
+        "The government signed the agreement last year."
+      ],
+      "why": "A finished time (last year, in 2015, yesterday) needs the past simple, not the present perfect."
+    },
+    {
+      "t": "verb",
+      "q": "Scientists ____ (study) this forest for over thirty years.",
+      "start": "",
+      "a": [
+        "have studied",
+        "have been studying"
+      ],
+      "why": "An action that started in the past and continues now, with \"for/since\", uses the present perfect (simple or continuous)."
+    },
+    {
+      "t": "rewrite",
+      "q": "Although the forest is protected, people still cut down trees.",
+      "start": "Despite",
+      "a": [
+        "Despite the forest being protected, people still cut down trees.",
+        "Despite being protected, the forest is still cut down by people.",
+        "Despite the protection of the forest, people still cut down trees."
+      ],
+      "why": "\"Despite\" is followed by a noun or an -ing form, not a full clause with a subject and verb."
+    }
+  ],
+  "3": [
+    {
+      "t": "correct",
+      "q": "The police is looking for the people who damaged the park.",
+      "start": "",
+      "a": [
+        "The police are looking for the people who damaged the park."
+      ],
+      "why": "\"Police\" is always plural: \"the police are\"."
+    },
+    {
+      "t": "correct",
+      "q": "This is the first time I see so many birds in one place.",
+      "start": "",
+      "a": [
+        "This is the first time I have seen so many birds in one place."
+      ],
+      "why": "\"It's / This is the first time\" is followed by the present perfect."
+    },
+    {
+      "t": "correct",
+      "q": "The amount of wild animals in Europe are getting smaller.",
+      "start": "",
+      "a": [
+        "The number of wild animals in Europe is getting smaller."
+      ],
+      "why": "Use \"number\" with countable nouns (animals); \"the number of …\" takes a singular verb."
+    },
+    {
+      "t": "verb",
+      "q": "By 2050, cities ____ (grow) by another two billion people.",
+      "start": "",
+      "a": [
+        "will have grown"
+      ],
+      "why": "The future perfect (will have + past participle) describes something completed before a time in the future."
+    },
+    {
+      "t": "paraphrase",
+      "q": "There isn't enough green space in my city.",
+      "start": "My city has too",
+      "a": [
+        "My city has too little green space."
+      ],
+      "why": "\"Not enough\" = \"too little\" (uncountable) or \"too few\" (countable)."
+    }
+  ],
+  "4": [
+    {
+      "t": "correct",
+      "q": "My doctor made me to give up sugar.",
+      "start": "",
+      "a": [
+        "My doctor made me give up sugar."
+      ],
+      "why": "\"Make someone do\": no \"to\" after make (and let)."
+    },
+    {
+      "t": "correct",
+      "q": "I recommend to start the day with a good breakfast.",
+      "start": "",
+      "a": [
+        "I recommend starting the day with a good breakfast."
+      ],
+      "why": "\"Recommend\" and \"suggest\" are followed by an -ing form, not \"to\" + verb."
+    },
+    {
+      "t": "correct",
+      "q": "We have eaten at that new vegetarian café last weekend.",
+      "start": "",
+      "a": [
+        "We ate at that new vegetarian café last weekend."
+      ],
+      "why": "A finished time (last weekend) needs the past simple."
+    },
+    {
+      "t": "verb",
+      "q": "If I ____ (have) a garden, I would grow my own vegetables.",
+      "start": "",
+      "a": [
+        "had"
+      ],
+      "why": "Second conditional: \"if\" + past simple, then \"would\" + base verb."
+    },
+    {
+      "t": "rewrite",
+      "q": "You will feel more energetic if you eat more vegetables.",
+      "start": "Eating",
+      "a": [
+        "Eating more vegetables will make you feel more energetic.",
+        "Eating more vegetables makes you feel more energetic."
+      ],
+      "why": "An -ing form (gerund) can be the subject of a sentence."
+    }
+  ],
+  "5": [
+    {
+      "t": "correct",
+      "q": "Warmer winters have a big affect on insects.",
+      "start": "",
+      "a": [
+        "Warmer winters have a big effect on insects."
+      ],
+      "why": "\"Effect\" is the noun; \"affect\" is the verb."
+    },
+    {
+      "t": "correct",
+      "q": "Mosquitoes are insects who can carry dangerous diseases.",
+      "start": "",
+      "a": [
+        "Mosquitoes are insects which can carry dangerous diseases.",
+        "Mosquitoes are insects that can carry dangerous diseases."
+      ],
+      "why": "Use \"which/that\" for animals and things, \"who\" for people."
+    },
+    {
+      "t": "correct",
+      "q": "The water isn't enough clean to drink.",
+      "start": "",
+      "a": [
+        "The water isn't clean enough to drink."
+      ],
+      "why": "\"Enough\" comes after an adjective (clean enough) but before a noun (enough water)."
+    },
+    {
+      "t": "verb",
+      "q": "By the end of the century, many animals ____ (move) to colder areas.",
+      "start": "",
+      "a": [
+        "will have moved"
+      ],
+      "why": "Future perfect: something completed before a future time."
+    },
+    {
+      "t": "combine",
+      "q": "Many animals are moving north. This means new diseases may spread.",
+      "start": "Many animals are moving north, which",
+      "a": [
+        "Many animals are moving north, which means new diseases may spread."
+      ],
+      "why": "\", which\" can refer to the whole previous idea, not just one noun."
+    }
+  ],
+  "6": [
+    {
+      "t": "correct",
+      "q": "I was very boring in the chemistry lesson today.",
+      "start": "",
+      "a": [
+        "I was very bored in the chemistry lesson today."
+      ],
+      "why": "\"-ed\" adjectives describe how you feel (bored); \"-ing\" adjectives describe what causes it (boring)."
+    },
+    {
+      "t": "correct",
+      "q": "The experiment was a success, everyone was very happy.",
+      "start": "",
+      "a": [
+        "The experiment was a success. Everyone was very happy.",
+        "The experiment was a success, and everyone was very happy.",
+        "The experiment was a success; everyone was very happy."
+      ],
+      "why": "Two full sentences can't be joined with only a comma: use a full stop, a semicolon or a linking word."
+    },
+    {
+      "t": "correct",
+      "q": "The results must check carefully before they are published.",
+      "start": "",
+      "a": [
+        "The results must be checked carefully before they are published."
+      ],
+      "why": "Results don't check anything: they are checked. Modal passive = modal + be + past participle."
+    },
+    {
+      "t": "verb",
+      "q": "This method ____ (test) in many laboratories since 2010.",
+      "start": "",
+      "a": [
+        "has been tested"
+      ],
+      "why": "Present perfect passive (has/have been + past participle) with \"since\"."
+    },
+    {
+      "t": "paraphrase",
+      "q": "You don't have to wear gloves for this experiment.",
+      "start": "It isn't",
+      "a": [
+        "It isn't necessary to wear gloves for this experiment."
+      ],
+      "why": "\"Don't have to\" = \"it isn't necessary to\" (there is no obligation)."
+    }
+  ],
+  "7": [
+    {
+      "t": "correct",
+      "q": "The data show that each of the mice react to the light.",
+      "start": "",
+      "a": [
+        "The data show that each of the mice reacts to the light."
+      ],
+      "why": "\"Each of\" + plural noun takes a singular verb."
+    },
+    {
+      "t": "correct",
+      "q": "The scientist succeeded to control the neurons with light.",
+      "start": "",
+      "a": [
+        "The scientist succeeded in controlling the neurons with light."
+      ],
+      "why": "\"Succeed in\" + -ing (like \"insist on\" + -ing)."
+    },
+    {
+      "t": "correct",
+      "q": "If they had used more mice, the results would be more reliable last year.",
+      "start": "",
+      "a": [
+        "If they had used more mice, the results would have been more reliable last year."
+      ],
+      "why": "Third conditional (past): \"if\" + past perfect, then \"would have\" + past participle."
+    },
+    {
+      "t": "verb",
+      "q": "The mice ____ (train) to find food before the experiment started.",
+      "start": "",
+      "a": [
+        "had been trained",
+        "were trained"
+      ],
+      "why": "Passive: the mice didn't train themselves. Past perfect passive shows it happened before another past action."
+    },
+    {
+      "t": "rewrite",
+      "q": "People believe that the brain controls every movement.",
+      "start": "The brain is believed",
+      "a": [
+        "The brain is believed to control every movement."
+      ],
+      "why": "Impersonal passive: \"It is believed that X …\" = \"X is believed to …\"."
+    }
+  ],
+  "8": [
+    {
+      "t": "correct",
+      "q": "Robots can give us many advices about money.",
+      "start": "",
+      "a": [
+        "Robots can give us a lot of advice about money.",
+        "Robots can give us much advice about money.",
+        "Robots can give us lots of advice about money."
+      ],
+      "why": "\"Advice\" is uncountable: no plural, and use \"a lot of/much\", not \"many\"."
+    },
+    {
+      "t": "correct",
+      "q": "I first used a chatbot two years before.",
+      "start": "",
+      "a": [
+        "I first used a chatbot two years ago."
+      ],
+      "why": "Counting back from now uses \"ago\"; \"before\" counts back from another past time."
+    },
+    {
+      "t": "correct",
+      "q": "AI not only writes texts but also it draws pictures.",
+      "start": "",
+      "a": [
+        "AI not only writes texts but also draws pictures."
+      ],
+      "why": "In \"not only … but also\", both parts must have the same form: \"writes … draws\"."
+    },
+    {
+      "t": "verb",
+      "q": "When the new system arrived, the company ____ (already/train) its staff.",
+      "start": "",
+      "a": [
+        "had already trained"
+      ],
+      "why": "Past perfect: an action completed before another past action."
+    },
+    {
+      "t": "combine",
+      "q": "Robots can sort parcels. They can do it day and night.",
+      "start": "Robots can sort parcels",
+      "a": [
+        "Robots can sort parcels day and night."
+      ],
+      "why": "When two sentences share the same subject and verb, combine them and keep only the new information."
+    }
+  ],
+  "9": [
+    {
+      "t": "correct",
+      "q": "Yesterday I buyed vegetables at the market.",
+      "start": "",
+      "a": [
+        "Yesterday I bought vegetables at the market."
+      ],
+      "why": "\"Buy\" is irregular: buy – bought – bought."
+    },
+    {
+      "t": "correct",
+      "q": "The insects was kept in small boxes.",
+      "start": "",
+      "a": [
+        "The insects were kept in small boxes."
+      ],
+      "why": "Plural subject (insects) → \"were\"."
+    },
+    {
+      "t": "correct",
+      "q": "This diet is more easier to follow than the last one.",
+      "start": "",
+      "a": [
+        "This diet is easier to follow than the last one."
+      ],
+      "why": "Don't use \"more\" with a comparative that already ends in -er."
+    },
+    {
+      "t": "verb",
+      "q": "If you ____ (skip) breakfast, you will feel hungry by ten o'clock.",
+      "start": "",
+      "a": [
+        "skip"
+      ],
+      "why": "First conditional: \"if\" + present simple, \"will\" + base verb."
+    },
+    {
+      "t": "paraphrase",
+      "q": "Cooking for ten people was very tiring for me.",
+      "start": "I found",
+      "a": [
+        "I found cooking for ten people very tiring."
+      ],
+      "why": "\"I found something + adjective\" gives your opinion of an experience."
+    }
+  ],
+  "10": [
+    {
+      "t": "correct",
+      "q": "Parents are afraid of their children to get sick at school.",
+      "start": "",
+      "a": [
+        "Parents are afraid of their children getting sick at school."
+      ],
+      "why": "After a preposition (of, about), use an -ing form, not \"to\" + verb."
+    },
+    {
+      "t": "correct",
+      "q": "Yesterday I must stay at home because I was ill.",
+      "start": "",
+      "a": [
+        "Yesterday I had to stay at home because I was ill."
+      ],
+      "why": "\"Must\" has no past form: use \"had to\"."
+    },
+    {
+      "t": "correct",
+      "q": "One in five adults have high blood pressure.",
+      "start": "",
+      "a": [
+        "One in five adults has high blood pressure."
+      ],
+      "why": "\"One in five …\" takes a singular verb."
+    },
+    {
+      "t": "verb",
+      "q": "When I got to the clinic, the doctor ____ (go) home.",
+      "start": "",
+      "a": [
+        "had gone",
+        "had already gone"
+      ],
+      "why": "Past perfect: the doctor left before I arrived."
+    },
+    {
+      "t": "rewrite",
+      "q": "She didn't check her blood sugar, so she felt ill.",
+      "start": "If she had",
+      "a": [
+        "If she had checked her blood sugar, she wouldn't have felt ill.",
+        "If she had checked her blood sugar, she would not have felt ill."
+      ],
+      "why": "Third conditional imagines a different past: if + past perfect, would have + past participle."
+    }
+  ],
+  "11": [
+    {
+      "t": "correct",
+      "q": "I read some interesting informations about fake news.",
+      "start": "",
+      "a": [
+        "I read some interesting information about fake news."
+      ],
+      "why": "\"Information\" is uncountable: no plural."
+    },
+    {
+      "t": "correct",
+      "q": "The app doesn't let users to delete old posts.",
+      "start": "",
+      "a": [
+        "The app doesn't let users delete old posts."
+      ],
+      "why": "\"Let someone do\": no \"to\"."
+    },
+    {
+      "t": "correct",
+      "q": "Many people believe fake news because of it looks real.",
+      "start": "",
+      "a": [
+        "Many people believe fake news because it looks real.",
+        "Many people believe fake news because of how real it looks."
+      ],
+      "why": "\"Because\" + clause (subject + verb); \"because of\" + noun."
+    },
+    {
+      "t": "verb",
+      "q": "The platform ____ (remove) thousands of fake accounts last month.",
+      "start": "",
+      "a": [
+        "removed"
+      ],
+      "why": "A finished time (last month) → past simple."
+    },
+    {
+      "t": "combine",
+      "q": "People share false stories. The stories make them angry.",
+      "start": "People share false stories because",
+      "a": [
+        "People share false stories because the stories make them angry.",
+        "People share false stories because they make them angry."
+      ],
+      "why": "\"Because\" joins a result to its reason."
+    }
+  ],
+  "12": [
+    {
+      "t": "correct",
+      "q": "The scientists found a rock, it came from Mars.",
+      "start": "",
+      "a": [
+        "The scientists found a rock which came from Mars.",
+        "The scientists found a rock that came from Mars.",
+        "The scientists found a rock, which came from Mars."
+      ],
+      "why": "A comma can't join two sentences: use a relative pronoun (which/that) or a full stop."
+    },
+    {
+      "t": "correct",
+      "q": "I study English since I was ten.",
+      "start": "",
+      "a": [
+        "I have studied English since I was ten.",
+        "I have been studying English since I was ten."
+      ],
+      "why": "From a past point until now (since/for) → present perfect."
+    },
+    {
+      "t": "correct",
+      "q": "Did you found the keys you lost?",
+      "start": "",
+      "a": [
+        "Did you find the keys you lost?"
+      ],
+      "why": "After \"did/didn't\", use the base verb."
+    },
+    {
+      "t": "verb",
+      "q": "The meteorite ____ (fall) in Antarctica thousands of years ago.",
+      "start": "",
+      "a": [
+        "fell"
+      ],
+      "why": "\"Ago\" → past simple. Fall – fell – fallen."
+    },
+    {
+      "t": "paraphrase",
+      "q": "Nobody has ever seen this kind of meteorite before.",
+      "start": "This kind of meteorite",
+      "a": [
+        "This kind of meteorite has never been seen before."
+      ],
+      "why": "Present perfect passive: has/have been + past participle."
+    }
+  ],
+  "13": [
+    {
+      "t": "correct",
+      "q": "The summers are getting hotter, don't it?",
+      "start": "",
+      "a": [
+        "The summers are getting hotter, aren't they?"
+      ],
+      "why": "A question tag repeats the auxiliary of the sentence (are → aren't) and uses a pronoun (they)."
+    },
+    {
+      "t": "correct",
+      "q": "This is the park where I go running in.",
+      "start": "",
+      "a": [
+        "This is the park where I go running.",
+        "This is the park which I go running in."
+      ],
+      "why": "\"Where\" already means \"in which\", so don't add \"in\" at the end."
+    },
+    {
+      "t": "correct",
+      "q": "The ice is melting more quick than scientists expected.",
+      "start": "",
+      "a": [
+        "The ice is melting more quickly than scientists expected.",
+        "The ice is melting faster than scientists expected."
+      ],
+      "why": "Verbs are described by adverbs: \"more quickly\" (or \"faster\")."
+    },
+    {
+      "t": "verb",
+      "q": "Since 1980, each decade ____ (be) warmer than the one before.",
+      "start": "",
+      "a": [
+        "has been"
+      ],
+      "why": "\"Since 1980\" (from then until now) → present perfect."
+    },
+    {
+      "t": "rewrite",
+      "q": "Summers will be even hotter. Many scientists think so.",
+      "start": "Many scientists think that",
+      "a": [
+        "Many scientists think that summers will be even hotter."
+      ],
+      "why": "Reporting verbs (think, believe, say) + \"that\" + clause."
+    }
+  ],
+  "14": [
+    {
+      "t": "correct",
+      "q": "Most people guess wrong, even they read the statistics.",
+      "start": "",
+      "a": [
+        "Most people guess wrong, even if they read the statistics.",
+        "Most people guess wrong, even when they read the statistics.",
+        "Most people guess wrong even if they read the statistics."
+      ],
+      "why": "\"Even\" alone can't join two clauses: use \"even if\", \"even when\" or \"even though\"."
+    },
+    {
+      "t": "correct",
+      "q": "My grandfather, that is 80, still works in his garden.",
+      "start": "",
+      "a": [
+        "My grandfather, who is 80, still works in his garden."
+      ],
+      "why": "With commas (extra information), use \"who/which\", never \"that\"."
+    },
+    {
+      "t": "correct",
+      "q": "Our neighbours are very friendly, they often invite us for tea.",
+      "start": "",
+      "a": [
+        "Our neighbours are very friendly. They often invite us for tea.",
+        "Our neighbours are very friendly, and they often invite us for tea.",
+        "Our neighbours are very friendly; they often invite us for tea."
+      ],
+      "why": "Don't join two sentences with only a comma."
+    },
+    {
+      "t": "verb",
+      "q": "Before the survey, the volunteers ____ (give) a short questionnaire.",
+      "start": "",
+      "a": [
+        "were given",
+        "had been given"
+      ],
+      "why": "Passive: someone gave the volunteers a questionnaire."
+    },
+    {
+      "t": "paraphrase",
+      "q": "The results surprised most of the researchers.",
+      "start": "Most of the researchers were",
+      "a": [
+        "Most of the researchers were surprised by the results."
+      ],
+      "why": "Active → passive: the object becomes the subject + be + past participle + by."
+    }
+  ],
+  "15": [
+    {
+      "t": "correct",
+      "q": "It takes a lot of energy for recycling plastic.",
+      "start": "",
+      "a": [
+        "It takes a lot of energy to recycle plastic."
+      ],
+      "why": "\"It takes (time/energy) + to + base verb\"."
+    },
+    {
+      "t": "correct",
+      "q": "Every country have to reduce its plastic waste.",
+      "start": "",
+      "a": [
+        "Every country has to reduce its plastic waste."
+      ],
+      "why": "\"Every\" + singular noun → singular verb (has)."
+    },
+    {
+      "t": "correct",
+      "q": "My aunt is a teacher in a small village, she loves her job.",
+      "start": "",
+      "a": [
+        "My aunt is a teacher in a small village. She loves her job.",
+        "My aunt is a teacher in a small village, and she loves her job.",
+        "My aunt is a teacher in a small village; she loves her job."
+      ],
+      "why": "Two sentences need a full stop, a semicolon or a linking word, not just a comma."
+    },
+    {
+      "t": "verb",
+      "q": "Only about 9% of all plastic ____ (recycle) so far.",
+      "start": "",
+      "a": [
+        "has been recycled"
+      ],
+      "why": "\"So far\" → present perfect; plastic doesn't recycle itself → passive."
+    },
+    {
+      "t": "combine",
+      "q": "We use fewer plastic bags. The oceans will be cleaner.",
+      "start": "If we",
+      "a": [
+        "If we use fewer plastic bags, the oceans will be cleaner."
+      ],
+      "why": "First conditional for a real possibility: if + present, will + verb."
+    }
+  ],
+  "16": [
+    {
+      "t": "correct",
+      "q": "Everybody in my family like watching birds.",
+      "start": "",
+      "a": [
+        "Everybody in my family likes watching birds."
+      ],
+      "why": "\"Everybody, nobody, somebody\" take a singular verb."
+    },
+    {
+      "t": "correct",
+      "q": "It was a so loud song that it woke me up.",
+      "start": "",
+      "a": [
+        "It was such a loud song that it woke me up.",
+        "The song was so loud that it woke me up."
+      ],
+      "why": "\"Such a + adjective + noun\"; \"so + adjective\" (without a noun)."
+    },
+    {
+      "t": "correct",
+      "q": "We were having dinner when the birds have started singing.",
+      "start": "",
+      "a": [
+        "We were having dinner when the birds started singing."
+      ],
+      "why": "A completed past action interrupting another one → past simple, not present perfect."
+    },
+    {
+      "t": "verb",
+      "q": "Researchers ____ (ignore) female birdsong for more than a century.",
+      "start": "",
+      "a": [
+        "have ignored"
+      ],
+      "why": "\"For more than a century\" up to now → present perfect."
+    },
+    {
+      "t": "rewrite",
+      "q": "Scientists are interested in female birds' songs. This is new.",
+      "start": "Scientists' interest",
+      "a": [
+        "Scientists' interest in female birds' songs is new."
+      ],
+      "why": "A verb phrase can become a noun phrase: \"are interested in\" → \"interest in\"."
+    }
+  ],
+  "17": [
+    {
+      "t": "correct",
+      "q": "The noise makes impossible to sleep.",
+      "start": "",
+      "a": [
+        "The noise makes it impossible to sleep."
+      ],
+      "why": "\"Make it + adjective + to + verb\": the \"it\" is needed."
+    },
+    {
+      "t": "correct",
+      "q": "Bees are one of the most important insect on Earth.",
+      "start": "",
+      "a": [
+        "Bees are one of the most important insects on Earth."
+      ],
+      "why": "\"One of the …\" is followed by a plural noun."
+    },
+    {
+      "t": "correct",
+      "q": "If we had cleaner air, more bees will survive.",
+      "start": "",
+      "a": [
+        "If we had cleaner air, more bees would survive."
+      ],
+      "why": "Second conditional: if + past simple → \"would\", not \"will\"."
+    },
+    {
+      "t": "verb",
+      "q": "Every year, millions of flowers ____ (pollinate) by bees.",
+      "start": "",
+      "a": [
+        "are pollinated"
+      ],
+      "why": "Present simple passive: am/is/are + past participle."
+    },
+    {
+      "t": "paraphrase",
+      "q": "Cities should ban old diesel cars.",
+      "start": "Old diesel cars",
+      "a": [
+        "Old diesel cars should be banned in cities.",
+        "Old diesel cars should be banned by cities."
+      ],
+      "why": "Modal passive: modal + be + past participle."
+    }
+  ],
+  "18": [
+    {
+      "t": "correct",
+      "q": "The flight was cancelled due to snow fall heavily.",
+      "start": "",
+      "a": [
+        "The flight was cancelled due to heavy snowfall.",
+        "The flight was cancelled due to heavy snow."
+      ],
+      "why": "\"Due to\" is followed by a noun phrase, not a clause."
+    },
+    {
+      "t": "correct",
+      "q": "Can you explain me this word?",
+      "start": "",
+      "a": [
+        "Can you explain this word to me?"
+      ],
+      "why": "\"Explain something to someone\", never \"explain someone something\"."
+    },
+    {
+      "t": "correct",
+      "q": "Each of the patients take two tablets a day.",
+      "start": "",
+      "a": [
+        "Each of the patients takes two tablets a day."
+      ],
+      "why": "\"Each of\" + plural noun → singular verb."
+    },
+    {
+      "t": "verb",
+      "q": "The new treatment ____ (test) on 200 patients last year.",
+      "start": "",
+      "a": [
+        "was tested"
+      ],
+      "why": "Past simple passive: was/were + past participle."
+    },
+    {
+      "t": "combine",
+      "q": "The treatment is expensive. Many hospitals use it.",
+      "start": "Although",
+      "a": [
+        "Although the treatment is expensive, many hospitals use it."
+      ],
+      "why": "\"Although\" shows a contrast between two ideas."
+    }
+  ],
+  "19": [
+    {
+      "t": "correct",
+      "q": "Electricity prices have rose a lot this year.",
+      "start": "",
+      "a": [
+        "Electricity prices have risen a lot this year."
+      ],
+      "why": "Rise – rose – risen: the present perfect needs the past participle."
+    },
+    {
+      "t": "correct",
+      "q": "I prefer walking to work than to take the bus.",
+      "start": "",
+      "a": [
+        "I prefer walking to work to taking the bus.",
+        "I prefer to walk to work rather than take the bus.",
+        "I prefer walking to work rather than taking the bus."
+      ],
+      "why": "\"Prefer -ing to -ing\" or \"prefer to do rather than do\": keep both forms the same."
+    },
+    {
+      "t": "correct",
+      "q": "We arrived to the airport two hours early.",
+      "start": "",
+      "a": [
+        "We arrived at the airport two hours early."
+      ],
+      "why": "\"Arrive at\" a place (building), \"arrive in\" a city or country, never \"arrive to\"."
+    },
+    {
+      "t": "verb",
+      "q": "Solar power ____ (become) much cheaper over the last ten years.",
+      "start": "",
+      "a": [
+        "has become"
+      ],
+      "why": "\"Over the last ten years\" → present perfect."
+    },
+    {
+      "t": "rewrite",
+      "q": "The factory was so polluting that the city closed it.",
+      "start": "It was such",
+      "a": [
+        "It was such a polluting factory that the city closed it."
+      ],
+      "why": "\"Such a + adjective + noun + that\" = \"so + adjective + that\"."
+    }
+  ],
+  "20": [
+    {
+      "t": "correct",
+      "q": "She paid with her phone, what surprised the cashier.",
+      "start": "",
+      "a": [
+        "She paid with her phone, which surprised the cashier."
+      ],
+      "why": "Use \", which\" to comment on a whole idea; \"what\" can't do this."
+    },
+    {
+      "t": "correct",
+      "q": "I'm not used to pay with cash any more.",
+      "start": "",
+      "a": [
+        "I'm not used to paying with cash any more.",
+        "I'm no longer used to paying with cash."
+      ],
+      "why": "\"Be/get used to\" + -ing (the \"to\" is a preposition)."
+    },
+    {
+      "t": "correct",
+      "q": "The implant is very small and it can be used in a different way.",
+      "start": "",
+      "a": [
+        "The implant is very small, and it can be used in different ways.",
+        "The implant is very small and can be used in different ways."
+      ],
+      "why": "\"In a different way\" is singular; for several, use \"in different ways\"."
+    },
+    {
+      "t": "verb",
+      "q": "By 2030, millions of people ____ (start) paying with implants.",
+      "start": "",
+      "a": [
+        "will have started"
+      ],
+      "why": "Future perfect: completed before a future time."
+    },
+    {
+      "t": "paraphrase",
+      "q": "Perhaps cash will disappear one day.",
+      "start": "Cash",
+      "a": [
+        "Cash may disappear one day.",
+        "Cash might disappear one day.",
+        "Cash could disappear one day."
+      ],
+      "why": "\"Perhaps\" = the modal of possibility \"may/might/could\"."
+    }
+  ],
+  "21": [
+    {
+      "t": "correct",
+      "q": "Nobody knows where did the first flowers grow.",
+      "start": "",
+      "a": [
+        "Nobody knows where the first flowers grew."
+      ],
+      "why": "In an indirect question, use normal word order (subject + verb), no \"did\"."
+    },
+    {
+      "t": "correct",
+      "q": "I'm interested to learn more about fossils.",
+      "start": "",
+      "a": [
+        "I'm interested in learning more about fossils."
+      ],
+      "why": "\"Interested in\" + -ing (like \"thinking of\" + -ing)."
+    },
+    {
+      "t": "correct",
+      "q": "Reading about evolution is more fun than watch documentaries.",
+      "start": "",
+      "a": [
+        "Reading about evolution is more fun than watching documentaries."
+      ],
+      "why": "Compare like with like: -ing form with -ing form."
+    },
+    {
+      "t": "verb",
+      "q": "The first flowering plants ____ (appear) more than 130 million years ago.",
+      "start": "",
+      "a": [
+        "appeared"
+      ],
+      "why": "\"Ago\" → past simple."
+    },
+    {
+      "t": "combine",
+      "q": "Some scientists use fossils. Others use DNA.",
+      "start": "Some scientists use fossils, whereas",
+      "a": [
+        "Some scientists use fossils, whereas others use DNA."
+      ],
+      "why": "\"Whereas\" contrasts two facts."
+    }
+  ],
+  "22": [
+    {
+      "t": "correct",
+      "q": "I am using this phone since three years.",
+      "start": "",
+      "a": [
+        "I have been using this phone for three years.",
+        "I have used this phone for three years."
+      ],
+      "why": "Up to now → present perfect (continuous); \"for\" + a period, \"since\" + a starting point."
+    },
+    {
+      "t": "correct",
+      "q": "When I listen to music, I feel myself calm.",
+      "start": "",
+      "a": [
+        "When I listen to music, I feel calm."
+      ],
+      "why": "\"Feel\" + adjective: no \"myself\"."
+    },
+    {
+      "t": "correct",
+      "q": "Next year people buy fewer laptops, experts say.",
+      "start": "",
+      "a": [
+        "Next year people will buy fewer laptops, experts say.",
+        "Experts say that people will buy fewer laptops next year."
+      ],
+      "why": "A prediction about the future needs \"will\" (or \"be going to\")."
+    },
+    {
+      "t": "verb",
+      "q": "If the battery ____ (last) longer, I will keep this phone.",
+      "start": "",
+      "a": [
+        "lasts"
+      ],
+      "why": "First conditional: if + present simple."
+    },
+    {
+      "t": "rewrite",
+      "q": "Smartwatches are cheaper than smartphones.",
+      "start": "Smartwatches aren't as",
+      "a": [
+        "Smartwatches aren't as expensive as smartphones."
+      ],
+      "why": "\"Not as + adjective + as\" is another way to compare."
+    }
+  ],
+  "23": [
+    {
+      "t": "correct",
+      "q": "Our town has a new solar farm what gives power to 2,000 homes.",
+      "start": "",
+      "a": [
+        "Our town has a new solar farm which gives power to 2,000 homes.",
+        "Our town has a new solar farm that gives power to 2,000 homes.",
+        "Our town has a new solar farm, which gives power to 2,000 homes."
+      ],
+      "why": "Relative pronoun for things: \"which/that\", never \"what\"."
+    },
+    {
+      "t": "correct",
+      "q": "My father use to work in a coal mine.",
+      "start": "",
+      "a": [
+        "My father used to work in a coal mine."
+      ],
+      "why": "Past habits: \"used to\" (with -d) + base verb."
+    },
+    {
+      "t": "correct",
+      "q": "Young people spend a lot of money for clothes.",
+      "start": "",
+      "a": [
+        "Young people spend a lot of money on clothes."
+      ],
+      "why": "\"Spend time/money on something\"."
+    },
+    {
+      "t": "verb",
+      "q": "The number of green jobs ____ (grow) quickly since 2020.",
+      "start": "",
+      "a": [
+        "has grown"
+      ],
+      "why": "\"Since 2020\" → present perfect; \"the number\" is singular → \"has\"."
+    },
+    {
+      "t": "paraphrase",
+      "q": "Workers today need more skills than workers in the past.",
+      "start": "Workers in the past needed",
+      "a": [
+        "Workers in the past needed fewer skills than workers today."
+      ],
+      "why": "Turning the comparison around: more → fewer (countable)."
+    }
+  ],
+  "24": [
+    {
+      "t": "correct",
+      "q": "Many plants which are not discovered yet may help medicine.",
+      "start": "",
+      "a": [
+        "Many plants which have not been discovered yet may help medicine.",
+        "Many plants that have not been discovered yet may help medicine."
+      ],
+      "why": "\"Yet\" → present perfect; plants don't discover → passive: have not been discovered."
+    },
+    {
+      "t": "correct",
+      "q": "The forest was more bigger that I imagined.",
+      "start": "",
+      "a": [
+        "The forest was bigger than I imagined."
+      ],
+      "why": "Comparatives: \"bigger\" (no \"more\") + \"than\" (not \"that\")."
+    },
+    {
+      "t": "correct",
+      "q": "Last summer we have visited three national parks.",
+      "start": "",
+      "a": [
+        "Last summer we visited three national parks."
+      ],
+      "why": "\"Last summer\" (finished time) → past simple."
+    },
+    {
+      "t": "verb",
+      "q": "Some trees ____ (disappear) before anyone gives them a name.",
+      "start": "",
+      "a": [
+        "may disappear",
+        "might disappear",
+        "could disappear"
+      ],
+      "why": "Modal of possibility + base verb."
+    },
+    {
+      "t": "combine",
+      "q": "Some trees are very tall. Scientists have never found them.",
+      "start": "Although some",
+      "a": [
+        "Although some trees are very tall, scientists have never found them."
+      ],
+      "why": "\"Although\" shows a surprising contrast."
+    }
+  ]
+}

@@ -1,0 +1,766 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:where(.dark, .dark *, :root:has(> head > meta[name="color-scheme"][content="dark"]) *));
+
+/* ============================================================================
+   IELTS MAX — British Examination Hall & Studio Dispatch Design System
+   Modern Web Guidance compliant: color-scheme meta sync, coarse touch targets,
+   container-query responsive tables, accessible scrollbars & focus states.
+   ============================================================================ */
+
+:root {
+  color-scheme: light dark;
+  --target-size: 24px;
+
+  /* Archival Light Surfaces */
+  --background: #F8F7F4;
+  --foreground: #14212D;
+  --card: #FFFFFF;
+  --card-foreground: #14212D;
+  --popover: #FFFFFF;
+  --popover-foreground: #14212D;
+
+  /* Oxford Ink Navy Shell */
+  --shell: #0F2537;
+  --shell-foreground: #F3F6F9;
+  --shell-muted: #9DB2C4;
+  --shell-border: #1D3950;
+  --shell-active: #183A54;
+
+  /* British Exam Teal Primary */
+  --primary: #0D6E6E;
+  --primary-foreground: #FFFFFF;
+  --secondary: #ECE9E2;
+  --secondary-foreground: #1E2E3B;
+  --muted: #F1EFE9;
+  --muted-foreground: #526270;
+  --accent: #E6F2F1;
+  --accent-foreground: #094D4D;
+
+  /* Semantic Exam & Milestone Tokens */
+  --milestone: #B45309;
+  --milestone-bg: #FEF3C7;
+  --milestone-border: #F59E0B;
+  --success: #166534;
+  --success-bg: #DCFCE7;
+  --destructive: #B91C1C;
+  --destructive-foreground: #FFFFFF;
+
+  --border: #E5E2DC;
+  --input: #D8D4CC;
+  --ring: #0D6E6E;
+  --radius: 0.5rem;
+}
+
+:root:has(> head > meta[name="color-scheme"][content="light"]) {
+  color-scheme: light;
+}
+
+:root:has(> head > meta[name="color-scheme"][content="dark"]),
+.dark {
+  color-scheme: dark;
+  --background: #0C141C;
+  --foreground: #ECF1F6;
+  --card: #131F2B;
+  --card-foreground: #ECF1F6;
+  --popover: #162433;
+  --popover-foreground: #ECF1F6;
+
+  --shell: #091118;
+  --shell-foreground: #F1F5F9;
+  --shell-muted: #8FA6BA;
+  --shell-border: #1D2D3D;
+  --shell-active: #162B3D;
+
+  --primary: #14B8A6;
+  --primary-foreground: #06211F;
+  --secondary: #1B2B3A;
+  --secondary-foreground: #E2E8F0;
+  --muted: #172533;
+  --muted-foreground: #96AABF;
+  --accent: #113236;
+  --accent-foreground: #5EEAD4;
+
+  --milestone: #F59E0B;
+  --milestone-bg: #2D210B;
+  --milestone-border: #B45309;
+  --success: #4ADE80;
+  --success-bg: #0D2B1B;
+  --destructive: #EF4444;
+  --destructive-foreground: #FFFFFF;
+
+  --border: #243444;
+  --input: #2D4053;
+  --ring: #2DD4BF;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not(:has(> head > meta[name="color-scheme"][content="light"])) {
+    --background: #0C141C;
+    --foreground: #ECF1F6;
+    --card: #131F2B;
+    --card-foreground: #ECF1F6;
+    --popover: #162433;
+    --popover-foreground: #ECF1F6;
+
+    --shell: #091118;
+    --shell-foreground: #F1F5F9;
+    --shell-muted: #8FA6BA;
+    --shell-border: #1D2D3D;
+    --shell-active: #162B3D;
+
+    --primary: #14B8A6;
+    --primary-foreground: #06211F;
+    --secondary: #1B2B3A;
+    --secondary-foreground: #E2E8F0;
+    --muted: #172533;
+    --muted-foreground: #96AABF;
+    --accent: #113236;
+    --accent-foreground: #5EEAD4;
+
+    --milestone: #F59E0B;
+    --milestone-bg: #2D210B;
+    --milestone-border: #B45309;
+    --success: #4ADE80;
+    --success-bg: #0D2B1B;
+    --destructive: #EF4444;
+    --destructive-foreground: #FFFFFF;
+
+    --border: #243444;
+    --input: #2D4053;
+    --ring: #2DD4BF;
+  }
+}
+
+@media (pointer: coarse) {
+  :root {
+    --target-size: 44px;
+  }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-shell: var(--shell);
+  --color-shell-foreground: var(--shell-foreground);
+  --color-shell-muted: var(--shell-muted);
+  --color-shell-border: var(--shell-border);
+  --color-shell-active: var(--shell-active);
+  --color-milestone: var(--milestone);
+  --color-milestone-bg: var(--milestone-bg);
+  --color-milestone-border: var(--milestone-border);
+  --color-success: var(--success);
+  --color-success-bg: var(--success-bg);
+  --font-sans: var(--font-figtree), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-source-serif), Georgia, Cambria, serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, SFMono-Regular, monospace;
+  --radius-sm: calc(var(--radius) - 2px);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 2px);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+/* Base typography, browser surfaces & modern-web-guidance layout hygiene */
+html {
+  scroll-padding-top: 4.5rem;
+  scroll-padding-bottom: calc(4.5rem + env(safe-area-inset-bottom, 0px));
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  overflow-wrap: break-word;
+  caret-color: var(--primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: color-mix(in srgb, var(--primary) 22%, transparent);
+  color: var(--foreground);
+}
+
+h1, h2, h3 {
+  text-wrap: balance;
+}
+
+p, li {
+  text-wrap: pretty;
+}
+
+:where(a, code) {
+  overflow-wrap: anywhere;
+}
+
+img, video {
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+a {
+  text-underline-offset: 0.2em;
+}
+
+:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+/* Touch target minimums (WCAG 2.5.8 / 2.5.5) */
+:where(button, select, input:not([type="checkbox"], [type="radio"]), [role="button"], nav a) {
+  min-block-size: var(--target-size);
+}
+
+/* Tabular figures everywhere data/scores/timers appear */
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom themed scrollbars */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+
+/* ============================================================================
+   Accessible Single-Row Scrollable Tabs (non-color underline via border)
+   ============================================================================ */
+.task-tablist {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-snap-type: inline proximity;
+  gap: 0.25rem;
+  border-bottom: 1px solid var(--border);
+  scrollbar-width: none;
+}
+.task-tablist::-webkit-scrollbar {
+  display: none;
+}
+.task-tab {
+  position: relative;
+  flex: none;
+  scroll-snap-align: start;
+  padding: 0.625rem 0.875rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--muted-foreground);
+  white-space: nowrap;
+  transition: color 150ms ease;
+}
+.task-tab:hover {
+  color: var(--foreground);
+}
+.task-tab[aria-selected="true"] {
+  color: var(--primary);
+}
+.task-tab[aria-selected="true"]::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  border-block-end: 3px solid var(--primary);
+}
+
+/* ============================================================================
+   Responsive Container-Query Admin Data Table (modern-web-guidance)
+   ============================================================================ */
+.responsive-table-wrap {
+  overflow: auto;
+  max-inline-size: 100%;
+  container-type: inline-size;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--card);
+}
+
+.responsive-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.875rem;
+}
+
+.responsive-table thead {
+  position: sticky;
+  inset-block-start: 0;
+  z-index: 2;
+  background: var(--muted);
+}
+
+.responsive-table th {
+  text-align: left;
+  font-weight: 600;
+  color: var(--muted-foreground);
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+.responsive-table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--border);
+  vertical-align: middle;
+}
+
+.responsive-table tbody th {
+  position: sticky;
+  inset-inline-start: 0;
+  z-index: 1;
+  background: var(--card);
+  color: var(--foreground);
+  font-weight: 600;
+}
+
+.responsive-table tbody tr:last-child td,
+.responsive-table tbody tr:last-child th {
+  border-bottom: 0;
+}
+
+@container (width < 640px) {
+  .responsive-table,
+  .responsive-table thead,
+  .responsive-table tbody,
+  .responsive-table tr,
+  .responsive-table th,
+  .responsive-table td {
+    display: block;
+  }
+
+  .responsive-table thead {
+    display: none;
+  }
+
+  .responsive-table tr {
+    border-bottom: 1px solid var(--border);
+    padding: 0.5rem 0;
+  }
+
+  .responsive-table tbody th {
+    position: sticky;
+    inset-block-start: 0;
+    z-index: 2;
+    background: var(--muted);
+    border-bottom: 1px solid var(--border);
+    padding: 0.625rem 0.875rem;
+  }
+
+  .responsive-table td {
+    border-bottom: 0;
+    padding: 0.4rem 0.875rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    text-align: right;
+  }
+
+  .responsive-table td::before {
+    content: attr(data-label);
+    font-weight: 600;
+    color: var(--muted-foreground);
+    text-align: left;
+    flex-shrink: 0;
+  }
+}
+
+/* ============================================================================
+   IELTS Computer-Delivered Exam HTML Styling (all 36 seed test classes)
+   ============================================================================ */
+.ielts-exam-html {
+  font-size: 0.9375rem;
+  line-height: 1.65;
+  color: var(--foreground);
+}
+.ielts-exam-html .qgroup {
+  margin-bottom: 1.75rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--border);
+}
+.ielts-exam-html .qgroup:last-child {
+  border-bottom: 0;
+}
+.ielts-exam-html .qhead {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0.35rem;
+  color: var(--foreground);
+}
+.ielts-exam-html .qinstr {
+  font-size: 0.875rem;
+  color: var(--muted-foreground);
+  margin-bottom: 0.85rem;
+  line-height: 1.55;
+}
+.ielts-exam-html .gx-notes,
+.ielts-exam-html .gx-box {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1rem 1.25rem;
+  background: var(--card);
+  margin: 0.9rem 0;
+  box-shadow: 0 1px 2px rgba(15, 37, 55, 0.04);
+}
+.ielts-exam-html .gx-box {
+  background: color-mix(in srgb, var(--muted) 55%, var(--card));
+}
+.ielts-exam-html .gx-notes-title,
+.ielts-exam-html .gx-box-title {
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-bottom: 0.65rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid var(--border);
+  letter-spacing: 0.01em;
+  color: var(--foreground);
+}
+.ielts-exam-html .gx-sec-title {
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  margin-bottom: 0.35rem;
+  color: var(--foreground);
+}
+.ielts-exam-html .gx-ul,
+.ielts-exam-html .xlist {
+  list-style: disc;
+  padding-left: 1.35rem;
+  margin: 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+.ielts-exam-html .gx-bullet,
+.ielts-exam-html .gx-dash,
+.ielts-exam-html .gx-plain {
+  margin: 0.35rem 0;
+}
+.ielts-exam-html .gx-it {
+  font-style: italic;
+  color: var(--muted-foreground);
+}
+.ielts-exam-html .gx-num {
+  width: 2.5rem;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 0.8125rem;
+  text-align: center;
+  color: var(--muted-foreground);
+  font-variant-numeric: tabular-nums;
+}
+.ielts-exam-html table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 0.85rem 0;
+  font-size: 0.875rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--card);
+}
+.ielts-exam-html th,
+.ielts-exam-html td {
+  border-bottom: 1px solid var(--border);
+  border-right: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  text-align: left;
+  vertical-align: middle;
+}
+.ielts-exam-html th:last-child,
+.ielts-exam-html td:last-child {
+  border-right: 0;
+}
+.ielts-exam-html tbody tr:last-child td,
+.ielts-exam-html tbody tr:last-child th {
+  border-bottom: 0;
+}
+.ielts-exam-html thead th {
+  background: var(--muted);
+  font-weight: 600;
+  color: var(--foreground);
+}
+.ielts-exam-html .qn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.6rem;
+  height: 1.6rem;
+  padding: 0 0.35rem;
+  margin-right: 0.45rem;
+  border-radius: 0.3rem;
+  background: var(--shell);
+  color: var(--shell-foreground);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  flex-shrink: 0;
+}
+.ielts-exam-html input.gap,
+.ielts-exam-html input[type="text"] {
+  display: inline-block;
+  width: 11.5rem;
+  max-width: 100%;
+  height: 2.1rem;
+  padding: 0.25rem 0.6rem;
+  margin: 0.15rem 0.25rem;
+  border: 1px solid var(--input);
+  border-radius: 0.375rem;
+  background: var(--card);
+  color: var(--foreground);
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: border-color 140ms ease, box-shadow 140ms ease;
+}
+.ielts-exam-html input.gap:focus,
+.ielts-exam-html input[type="text"]:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--primary) 20%, transparent);
+  outline: none;
+}
+
+/* Styled Native Select Dropdowns (.xsel) */
+.ielts-exam-html select,
+.ielts-exam-html select.xsel {
+  display: inline-block;
+  min-width: 4.5rem;
+  height: 2.25rem;
+  padding: 0.25rem 0.65rem;
+  border: 1px solid var(--input);
+  border-radius: 0.375rem;
+  background-color: var(--card);
+  color: var(--foreground);
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 140ms ease, background-color 140ms ease;
+}
+.ielts-exam-html select.xsel:hover,
+.ielts-exam-html select:hover {
+  border-color: var(--primary);
+}
+.ielts-exam-html select.xsel:focus,
+.ielts-exam-html select:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--primary) 22%, transparent);
+  outline: none;
+}
+
+/* Matching Rows (.xrow) */
+.ielts-exam-html .xrow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.85rem;
+  padding: 0.7rem 0.85rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--card);
+}
+.ielts-exam-html .xrow .xtext {
+  flex: 1;
+  min-width: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* MCQ & TFNG Questions (.xq, .mc-question, .xopt, .radio-option, .choice-option) */
+.ielts-exam-html .xq,
+.ielts-exam-html .mc-question {
+  padding: 0.9rem 1rem;
+  margin-bottom: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--card);
+  box-shadow: 0 1px 2px rgba(15, 37, 55, 0.03);
+}
+.ielts-exam-html .xstem,
+.ielts-exam-html .gx-stem {
+  font-weight: 500;
+  margin-bottom: 0.65rem;
+  display: flex;
+  align-items: flex-start;
+  line-height: 1.55;
+}
+.ielts-exam-html .xopts,
+.ielts-exam-html .choice-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.ielts-exam-html .xopt,
+.ielts-exam-html .radio-option,
+.ielts-exam-html .choice-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 0.45rem;
+  cursor: pointer;
+  background: var(--background);
+  font-size: 0.875rem;
+  line-height: 1.45;
+  transition: border-color 140ms ease, background-color 140ms ease;
+}
+.ielts-exam-html .xopt:hover,
+.ielts-exam-html .radio-option:hover,
+.ielts-exam-html .choice-option:hover {
+  border-color: color-mix(in srgb, var(--primary) 55%, var(--border));
+  background: var(--muted);
+}
+.ielts-exam-html .xopt:has(input:checked),
+.ielts-exam-html .radio-option:has(input:checked),
+.ielts-exam-html .choice-option:has(input:checked) {
+  border-color: var(--primary);
+  background: var(--accent);
+  color: var(--accent-foreground);
+  font-weight: 500;
+}
+.ielts-exam-html .xopt input[type="radio"],
+.ielts-exam-html .xopt input[type="checkbox"],
+.ielts-exam-html .radio-option input[type="radio"],
+.ielts-exam-html .choice-option input[type="checkbox"] {
+  margin-top: 0.2rem;
+  accent-color: var(--primary);
+  min-block-size: auto;
+  min-inline-size: auto;
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+}
+.ielts-exam-html .lt {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.35rem;
+  height: 1.35rem;
+  border-radius: 0.25rem;
+  background: var(--muted);
+  border: 1px solid var(--border);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--foreground);
+  flex-shrink: 0;
+}
+.ielts-exam-html .xopt:has(input:checked) .lt {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: var(--primary-foreground);
+}
+
+/* Drag & Drop / Tap-to-Place Pools (.dpool, .ditem, .dzone, .dval) */
+.ielts-exam-html .dpool {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0.85rem;
+  margin: 0.85rem 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--muted);
+}
+.ielts-exam-html .ditem {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.7rem;
+  border: 1px solid var(--border);
+  border-radius: 0.45rem;
+  background: var(--card);
+  color: var(--foreground);
+  font-size: 0.8125rem;
+  cursor: grab;
+  user-select: none;
+  transition: border-color 140ms ease, background-color 140ms ease, opacity 140ms ease;
+}
+.ielts-exam-html .ditem:hover {
+  border-color: var(--primary);
+}
+.ielts-exam-html .ditem.is-selected {
+  border-color: var(--primary);
+  background: var(--accent);
+  color: var(--accent-foreground);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--primary) 25%, transparent);
+}
+.ielts-exam-html .ditem.is-used {
+  opacity: 0.55;
+}
+.ielts-exam-html .ditem b {
+  font-family: var(--font-mono);
+  color: var(--primary);
+}
+.ielts-exam-html .dzone {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  min-width: 7.5rem;
+  min-height: 2rem;
+  padding: 0.2rem 0.55rem 0.2rem 0.25rem;
+  margin: 0.15rem 0.25rem;
+  border: 1.5px dashed var(--input);
+  border-radius: 0.45rem;
+  background: var(--card);
+  vertical-align: middle;
+  cursor: pointer;
+  transition: border-color 140ms ease, background-color 140ms ease;
+}
+.ielts-exam-html .dzone:hover,
+.ielts-exam-html .dzone.is-over {
+  border-color: var(--primary);
+  background: var(--accent);
+}
+.ielts-exam-html .dzone.is-filled {
+  border-style: solid;
+  border-color: var(--primary);
+  background: var(--accent);
+  color: var(--accent-foreground);
+}
+.ielts-exam-html .dzone .dval {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--foreground);
+}
+.ielts-exam-html .dzone .dval:empty::after {
+  content: "Drop or tap";
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: var(--muted-foreground);
+}
+.ielts-exam-html img,
+.ielts-exam-html .gx-img {
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  margin: 0.85rem 0;
+  background: #ffffff;
+  padding: 0.5rem;
+}
+
+/* Mobile bottom safe-area bar */
+.mobile-bottom-nav {
+  padding-bottom: max(0.5rem, env(safe-area-inset-bottom, 0px));
+  padding-left: max(0.5rem, env(safe-area-inset-left, 0px));
+  padding-right: max(0.5rem, env(safe-area-inset-right, 0px));
+}

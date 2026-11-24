@@ -1,0 +1,112 @@
+[
+  {
+    "n": 7,
+    "answers": [
+      "Cry",
+      "Monster",
+      "Communicate",
+      "Social",
+      "Threat",
+      "Flight",
+      "Conscious",
+      "Hormone",
+      "Pressure",
+      "Natural",
+      "Inevitable",
+      "Confident",
+      "Dirty",
+      "Presentation",
+      "Wild"
+    ],
+    "speak_answers": [
+      "unshakeable views",
+      "sparked debates",
+      "raise awareness",
+      "personal experiences",
+      "assert control",
+      "shies away from",
+      "back up",
+      "spoke out",
+      "hold on to|hold onto",
+      "come off as",
+      "d|d)",
+      "a|a)",
+      "b|b)",
+      "e|e)",
+      "c|c)"
+    ]
+  },
+  {
+    "n": 8,
+    "answers": [
+      "Barreling",
+      "Divert",
+      "Dilemma",
+      "Simulation",
+      "Maximizes",
+      "Runaway",
+      "Instincts",
+      "Psychology",
+      "Logical",
+      "Sacrifice",
+      "Activate",
+      "Personal",
+      "Unrealistic",
+      "Autonomous",
+      "Collaborating"
+    ],
+    "speak_answers": [
+      "prominent spot",
+      "nostalgia",
+      "top-notch equipment",
+      "visual diary",
+      "sparkle in her eyes",
+      "snap away|snapped away",
+      "freeze a moment in time",
+      "hone her skills|hone skills|hone my skills",
+      "play with lighting",
+      "document history",
+      "e|e)",
+      "a|a)",
+      "d|d)",
+      "c|c)",
+      "b|b)"
+    ]
+  },
+  {
+    "n": 9,
+    "answers": [
+      "Detect",
+      "Preparation",
+      "Fantasies",
+      "Imagined",
+      "Deception",
+      "Simple",
+      "Unnecessary",
+      "Bizarre",
+      "Personal",
+      "Outcome",
+      "Emotions",
+      "Engaged",
+      "Direct",
+      "Harmless"
+    ],
+    "speak_answers": [
+      "daunting task",
+      "massive relief",
+      "time management",
+      "adrenaline rush",
+      "proud moment",
+      "give it a go",
+      "get stuck",
+      "pushed through",
+      "turn to",
+      "bounced back",
+      "d|d)",
+      "e|e)",
+      "b|b)",
+      "a|a)",
+      "c|c)"
+    ]
+  }
+]

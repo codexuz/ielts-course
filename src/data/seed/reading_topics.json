@@ -1,0 +1,383 @@
+[
+  {
+    "key": "tech",
+    "name": "Technology & Innovation",
+    "icon": "💡",
+    "hue": 212,
+    "arts": [
+      [
+        "tech-ai",
+        "AI",
+        "Can a Machine Be Creative?",
+        "🤖",
+        "Computers now paint, write and compose music. Is that real creativity?"
+      ],
+      [
+        "tech-robots",
+        "Robotics",
+        "Robots in the Care Home",
+        "🦾",
+        "In Japan, robots help look after older people. What do the residents think?"
+      ],
+      [
+        "tech-social",
+        "Social media",
+        "The Like Button Effect",
+        "👍",
+        "How a tiny button changed the way we feel about ourselves."
+      ],
+      [
+        "tech-phones",
+        "Smartphones",
+        "A Week Without My Phone",
+        "📱",
+        "One student switched off for seven days. Here is what happened."
+      ],
+      [
+        "tech-automation",
+        "Automation",
+        "Who Will Do the Work?",
+        "⚙️",
+        "Machines are taking over tasks. Which jobs will change, and which will stay?"
+      ]
+    ]
+  },
+  {
+    "key": "health",
+    "name": "Health & Well-being",
+    "icon": "🌿",
+    "hue": 152,
+    "arts": [
+      [
+        "health-mind",
+        "Mental health",
+        "Why Talking Helps",
+        "💬",
+        "Putting feelings into words really does calm the brain."
+      ],
+      [
+        "health-food",
+        "Nutrition",
+        "The Truth About Breakfast",
+        "🥣",
+        "Is it really the most important meal of the day?"
+      ],
+      [
+        "health-sleep",
+        "Sleep",
+        "Why Teenagers Sleep Late",
+        "😴",
+        "Teenagers aren't lazy. Their body clocks are different."
+      ],
+      [
+        "health-move",
+        "Exercise",
+        "Ten Minutes That Change Your Brain",
+        "🏃",
+        "A short walk does more for your mind than you think."
+      ],
+      [
+        "health-life",
+        "Lifestyle",
+        "Lessons from the Longest Lives",
+        "🫒",
+        "What do the places where people live to 100 have in common?"
+      ]
+    ]
+  },
+  {
+    "key": "env",
+    "name": "Environment & Climate Change",
+    "icon": "🌍",
+    "hue": 128,
+    "arts": [
+      [
+        "env-ice",
+        "Global warming",
+        "When the Glaciers Melt",
+        "🧊",
+        "Mountain ice is disappearing, and millions of people depend on it."
+      ],
+      [
+        "env-plastic",
+        "Pollution",
+        "The Plastic Inside Us",
+        "🧴",
+        "Tiny pieces of plastic are everywhere, even in our bodies."
+      ],
+      [
+        "env-energy",
+        "Renewable energy",
+        "Sun, Wind and the Batteries in Between",
+        "☀️",
+        "Clean power is cheap now. The hard part is storing it."
+      ],
+      [
+        "env-repair",
+        "Sustainability",
+        "The Repair Café",
+        "🔧",
+        "Why fixing old things is becoming popular again."
+      ]
+    ]
+  },
+  {
+    "key": "edu",
+    "name": "Education & Learning",
+    "icon": "🎓",
+    "hue": 38,
+    "arts": [
+      [
+        "edu-online",
+        "Online learning",
+        "School on a Screen",
+        "💻",
+        "Online courses reach millions. So why do so few people finish them?"
+      ],
+      [
+        "edu-uni",
+        "Universities",
+        "Is University Still Worth It?",
+        "🏛️",
+        "Degrees cost more than ever. What do students really get?"
+      ],
+      [
+        "edu-teach",
+        "Teaching methods",
+        "Learn It by Teaching It",
+        "🧑‍🏫",
+        "The best way to learn something may be to explain it to someone else."
+      ],
+      [
+        "edu-life",
+        "Lifelong learning",
+        "Never Too Old to Learn",
+        "📚",
+        "The adult brain can still change, at 40, 60 or 80."
+      ]
+    ]
+  },
+  {
+    "key": "science",
+    "name": "Science & Research",
+    "icon": "🔬",
+    "hue": 262,
+    "arts": [
+      [
+        "sci-moon",
+        "Space exploration",
+        "Why Go Back to the Moon?",
+        "🚀",
+        "Fifty years after the last visit, the Moon is popular again."
+      ],
+      [
+        "sci-dna",
+        "Genetics",
+        "Reading the Book of Life",
+        "🧬",
+        "A cheap DNA test can tell you a lot. Maybe too much."
+      ],
+      [
+        "baby-memories",
+        "Psychology",
+        "Why Can't We Remember Being Babies?",
+        "🧠",
+        "We learn more in our first years than at any other time, yet we remember none of it."
+      ],
+      [
+        "sci-luck",
+        "Scientific discoveries",
+        "The Lucky Accident",
+        "🧫",
+        "Some of the greatest discoveries happened by chance."
+      ]
+    ]
+  },
+  {
+    "key": "biz",
+    "name": "Business & Economics",
+    "icon": "📈",
+    "hue": 24,
+    "arts": [
+      [
+        "biz-prices",
+        "Inflation",
+        "Why Everything Costs More",
+        "🛒",
+        "What inflation is, why it happens and who it hurts most."
+      ],
+      [
+        "biz-start",
+        "Entrepreneurship",
+        "From Kitchen Table to Company",
+        "🧁",
+        "How small ideas become businesses, and why most of them fail."
+      ],
+      [
+        "biz-week",
+        "Employment",
+        "The Four-Day Week",
+        "🗓️",
+        "Companies that tried working less found something surprising."
+      ],
+      [
+        "biz-buy",
+        "Consumer behaviour",
+        "Why We Buy What We Don't Need",
+        "🛍️",
+        "Shops and websites know exactly how to make us spend."
+      ]
+    ]
+  },
+  {
+    "key": "psych",
+    "name": "Psychology & Human Behaviour",
+    "icon": "🧩",
+    "hue": 300,
+    "arts": [
+      [
+        "psy-quiet",
+        "Personality",
+        "The Quiet Strength of Introverts",
+        "🤫",
+        "In a loud world, quiet people have their own advantages."
+      ],
+      [
+        "psy-habits",
+        "Habits",
+        "How Habits Are Made",
+        "🔁",
+        "Why it is so hard to change what we do every day, and how to do it."
+      ],
+      [
+        "psy-friends",
+        "Relationships",
+        "Why Friends Matter More Than We Think",
+        "🤝",
+        "Good friendships may protect our health as much as exercise."
+      ],
+      [
+        "psy-rewards",
+        "Motivation",
+        "The Problem with Rewards",
+        "🏅",
+        "Paying people to do something can make them want to do it less."
+      ],
+      [
+        "psy-choice",
+        "Decision-making",
+        "Too Many Choices",
+        "🤔",
+        "More options should make us happier. Often they don't."
+      ]
+    ]
+  },
+  {
+    "key": "society",
+    "name": "Society & Culture",
+    "icon": "🎭",
+    "hue": 338,
+    "arts": [
+      [
+        "soc-traditions",
+        "Traditions",
+        "Why We Keep Old Traditions",
+        "🎉",
+        "Old customs survive for a reason, even in modern cities."
+      ],
+      [
+        "soc-postcode",
+        "Social inequality",
+        "The Postcode Lottery",
+        "⚖️",
+        "Where you are born can shape how long and how well you live."
+      ],
+      [
+        "soc-time",
+        "Cultural differences",
+        "What Time Is “On Time”?",
+        "⏰",
+        "Being late means very different things around the world."
+      ],
+      [
+        "soc-ageing",
+        "Demographic changes",
+        "A World Getting Older",
+        "👵",
+        "Fewer babies and longer lives are changing every society."
+      ]
+    ]
+  },
+  {
+    "key": "politics",
+    "name": "Politics & World Affairs",
+    "icon": "🌐",
+    "hue": 2,
+    "arts": [
+      [
+        "pol-together",
+        "International relations",
+        "Why Countries Work Together",
+        "🕊️",
+        "Rivals still sign agreements. What do they gain?"
+      ],
+      [
+        "pol-sugar",
+        "Government policies",
+        "Can a Tax Change What We Eat?",
+        "🥤",
+        "Several countries taxed sugary drinks. Did it work?"
+      ],
+      [
+        "pol-water",
+        "Conflicts",
+        "Water: A Reason to Fight or to Agree?",
+        "💧",
+        "Rivers cross borders, and sharing them is not easy."
+      ],
+      [
+        "pol-vote",
+        "Elections",
+        "Why Young People Don't Vote",
+        "🗳️",
+        "Young people care about politics. So why do so few of them vote?"
+      ]
+    ]
+  },
+  {
+    "key": "travel",
+    "name": "Travel & Lifestyle",
+    "icon": "✈️",
+    "hue": 190,
+    "arts": [
+      [
+        "trv-crowds",
+        "Tourism",
+        "Too Many Tourists",
+        "🏖️",
+        "Some of the world's most beautiful places are full. What can they do?"
+      ],
+      [
+        "trv-food",
+        "Cultural experiences",
+        "Eat Like a Local",
+        "🍜",
+        "Why food is the fastest way to understand another culture."
+      ],
+      [
+        "trv-city",
+        "Urban living",
+        "The 15-Minute City",
+        "🏙️",
+        "A city where everything you need is a short walk away."
+      ],
+      [
+        "trv-rest",
+        "Work-life balance",
+        "The Art of Doing Nothing",
+        "🛋️",
+        "Busy people are learning to rest, and it is harder than it sounds."
+      ]
+    ]
+  }
+]
